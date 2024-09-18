@@ -1,4 +1,4 @@
-# Problem with Time Windows (TSPTW) Solver
+# Traveling Salesman Problem with Time Windows (TSPTW) Solver
 
 This project provides a solver for the Traveling Salesman Problem with Time Windows (TSPTW). The main goal is to find a minimal-cost tour that visits a set of customers exactly once within their designated time windows, starting and ending at a depot.
 
