@@ -2,6 +2,11 @@
 
 This project provides a solver for the Traveling Salesman Problem with Time Windows (TSPTW). The main goal is to find a minimal-cost tour that visits a set of customers exactly once within their designated time windows, starting and ending at a depot.
 
+## Authors:
+
+- Leonardo Brighenti
+- Simone Giovanardi
+
 ## Features
 
 - **Optimal Solution Using PuLP:** The project first solves the TSPTW using PuLP, a Python library for linear programming. It provides an optimal solution given the constraints of the problem.
@@ -15,10 +20,3 @@ This project provides a solver for the Traveling Salesman Problem with Time Wind
 ## Conclusion
 
 This project showcases different approaches to solving the TSPTW, each with its own benefits and limitations. The optimal solution provided by PuLP is highly accurate but computationally demanding, making it suitable for smaller datasets. On the other hand, the heuristic methods offer quicker solutions that are more feasible for larger datasets, albeit with slightly reduced accuracy. This balance between precision and efficiency makes the project a versatile tool for tackling real-world routing challenges involving time constraints.
-
------------------
-
-Authors:
-Leonardo Brighenti, Simone Giovanardi
-
-Date: 11/2023
